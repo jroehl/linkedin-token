@@ -1,7 +1,7 @@
 {
   "name": "linkedin-token",
   "description": "A small helper tool to create oauth2 token for linkedin api v2",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "jroehl <mail@johannroehl.de>",
   "bin": {
     "linkedin-token": "./bin/run"
