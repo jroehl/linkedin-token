@@ -10,3 +10,7 @@ A small helper tool to create oauth2 token for linkedin api v2
 # Usage and commands
 
 `npx linkedin-token --help`
+
+## Create access token
+
+`npx linkedin-token --client_id=<client_id> --client_secret=<client_secret>`

@@ -1,19 +1,19 @@
 {
   "name": "linkedin-token",
   "description": "A small helper tool to create oauth2 token for linkedin api v2",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "jroehl <mail@johannroehl.de>",
   "bin": {
     "linkedin-token": "./bin/run"
   },
   "bugs": "https://github.com/jroehl/linkedin-token/issues",
   "dependencies": {
-    "@oclif/command": "^1.5.12",
-    "@oclif/config": "^1.12.11",
-    "@oclif/plugin-help": "^2.1.6",
-    "clipboardy": "^1.2.3",
-    "express": "^4.16.4",
-    "open": "^6.0.0",
+    "@oclif/command": "^1.5.19",
+    "@oclif/config": "^1.13.3",
+    "@oclif/plugin-help": "^2.2.1",
+    "clipboardy": "^2.1.0",
+    "express": "^4.17.1",
+    "open": "^7.0.0",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.7"
   },

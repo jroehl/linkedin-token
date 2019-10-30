@@ -42,7 +42,7 @@ const run = (self, flags) => {
 
   const url = `${urls.base}${urls.authorization}?${queryParams}`;
   log(`Open auth url "${url}"`);
-  open(url);
+  open(url, { url: true });
 };
 
 class LinkedinTokenCommand extends Command {
